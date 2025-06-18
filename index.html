@@ -1,40 +1,47 @@
 <!DOCTYPE html>
-<html lang="en-us">
-  <head>
-    <meta charset="utf-8">
-    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
-    <title>Unity WebGL Player | daninsan_sanpo</title>
-  </head>
-  <body style="text-align: center; padding: 0; border: 0; margin: 0;">
-    <canvas id="unity-canvas" width=640 height=600 tabindex="-1" style="width: 640px; height: 600px; background: #231F20"></canvas>
-    <script src="Build/webgl.loader.js"></script>
-    <script>
-      if (/iPhone|iPad|iPod|Android/i.test(navigator.userAgent)) {
-        // Mobile device style: fill the whole browser client area with the game canvas:
-        var meta = document.createElement('meta');
-        meta.name = 'viewport';
-        meta.content = 'width=device-width, height=device-height, initial-scale=1.0, user-scalable=no, shrink-to-fit=yes';
-        document.getElementsByTagName('head')[0].appendChild(meta);
+<html lang="ja">
+<head>
+  <meta charset="UTF-8">
+  <title>スーパー団員さんぽ 配布ページ</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header>
+    <h1>スーパー団員さんぽ</h1>
+    <p>ノエル団長を探して団員さんが大冒険！</p>
+  </header>
 
-        var canvas = document.querySelector("#unity-canvas");
-        canvas.style.width = "100%";
-        canvas.style.height = "100%";
-        canvas.style.position = "fixed";
+  <main>
+    <section class="media">
+      <h2>プレイ動画</h2>
+      <iframe width="560" height="315" src="https://www.youtube.com/shorts/TkofgbBIEtU" frameborder="0" allowfullscreen></iframe>
+    </section>
 
-        document.body.style.textAlign = "left";
-      }
+    <section class="screenshots">
+      <h2>スクリーンショット</h2>
+      <img src="images/screenshot1.png" alt="ゲームのスクリーンショット">
+    </section>
 
-      createUnityInstance(document.querySelector("#unity-canvas"), {
-        dataUrl: "Build/webgl.data",
-        frameworkUrl: "Build/webgl.framework.js",
-        codeUrl: "Build/webgl.wasm",
-        streamingAssetsUrl: "StreamingAssets",
-        companyName: "DefaultCompany",
-        productName: "daninsan_sanpo",
-        productVersion: "1.0",
-        // matchWebGLToCanvasSize: false, // Uncomment this to separately control WebGL canvas render size and DOM element size.
-        // devicePixelRatio: 1, // Uncomment this to override low DPI rendering on high DPI displays.
-      });
-    </script>
-  </body>
+    <section class="download">
+      <h2>ダウンロード</h2>
+      <a class="btn" href="download.php">ゲームをダウンロード（ZIP）</a>
+    </section>
+
+
+
+
+
+
+
+
+    <section class="webgl">
+      <h2>ブラウザでプレイ</h2>
+      <iframe src="webgl/index.html" width="960" height="600" frameborder="0" allowfullscreen></iframe>
+    </section>
+  </main>
+
+  <footer>
+    <p>&copy; 2025 団員さん開発部</p>
+  </footer>
+</body>
 </html>
