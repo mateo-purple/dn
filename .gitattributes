@@ -1,0 +1,5 @@
+*.zip filter=lfs diff=lfs merge=lfs -text
+webgl/Build/webgl.data filter=lfs diff=lfs merge=lfs -text
+webgl/Build/webgl.framework.js filter=lfs diff=lfs merge=lfs -text
+webgl/Build/webgl.loader.js filter=lfs diff=lfs merge=lfs -text
+webgl/Build/webgl.wasm filter=lfs diff=lfs merge=lfs -text
