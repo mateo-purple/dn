@@ -68,6 +68,7 @@ a.btn {
     font-size: 1.1em;
     box-shadow: 0 0 10px rgba(255, 255, 255, 0.2);
     transition: background-color 0.3s, transform 0.2s;
+    margin: 0.3em 0.5em 0.8em 0;
 }
 
 a.btn:hover {
@@ -108,4 +109,18 @@ footer {
     color: #eee;
     margin-bottom: 1.5em;
     text-shadow: 1px 1px 2px #000;
+}
+
+/* ===== クレジットセクション ===== */
+.credits p,
+.credits ul {
+    font-size: 1em;
+    line-height: 1.8;
+    color: #eee;
+    margin-bottom: 1.2em;
+    text-shadow: 1px 1px 2px #000;
+}
+
+.credits a {
+    text-decoration: none;
 }
