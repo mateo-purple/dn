@@ -57,25 +57,6 @@ img {
     box-shadow: 0 0 15px rgba(0, 0, 0, 0.8);
 }
 
-a.btn {
-    display: inline-block;
-    padding: 0.9em 1.8em;
-    background-color: #663399;
-    color: white;
-    text-decoration: none;
-    border-radius: 10px;
-    font-weight: bold;
-    font-size: 1.1em;
-    box-shadow: 0 0 10px rgba(255, 255, 255, 0.2);
-    transition: background-color 0.3s, transform 0.2s;
-    margin: 0.3em 0.5em 0.8em 0;
-}
-
-a.btn:hover {
-    background-color: #8855cc;
-    transform: scale(1.05);
-}
-
 ul {
     padding-left: 1.2em;
 }
@@ -90,7 +71,7 @@ footer {
     box-shadow: 0 -2px 10px rgba(0, 0, 0, 0.5);
 }
 
-/* ===== 動画プレイヤー（通常サイズ） ===== */
+/* ===== 動画プレイヤー ===== */
 .media iframe,
 .story-video iframe {
     width: 100%;
@@ -102,7 +83,7 @@ footer {
     box-shadow: 0 0 15px rgba(0, 0, 0, 0.7);
 }
 
-/* ===== ストーリーセクション ===== */
+/* ===== ストーリー文 ===== */
 .story p {
     font-size: 1.1em;
     line-height: 1.8;
@@ -111,7 +92,7 @@ footer {
     text-shadow: 1px 1px 2px #000;
 }
 
-/* ===== クレジットセクション ===== */
+/* ===== クレジット文 ===== */
 .credits p,
 .credits ul {
     font-size: 1em;
@@ -123,4 +104,54 @@ footer {
 
 .credits a {
     text-decoration: none;
+}
+
+/* ===== ボタン共通 ===== */
+a.btn {
+    display: inline-block;
+    padding: 0.8em 1.6em;
+    border-radius: 10px;
+    font-weight: bold;
+    font-size: 1.05em;
+    text-decoration: none;
+    margin: 0.3em 0.5em 0.8em 0;
+    transition: background-color 0.3s, transform 0.2s;
+    box-shadow: 0 0 10px rgba(255, 255, 255, 0.15);
+}
+
+/* ===== ボタン色分け ===== */
+.btn-primary {
+    background-color: #663399;
+    color: #fff;
+}
+.btn-primary:hover {
+    background-color: #8855cc;
+    transform: scale(1.05);
+}
+
+.btn-secondary {
+    background-color: #3366cc;
+    color: #fff;
+}
+.btn-secondary:hover {
+    background-color: #5599ff;
+    transform: scale(1.05);
+}
+
+.btn-tertiary {
+    background-color: #666666;
+    color: #fff;
+}
+.btn-tertiary:hover {
+    background-color: #999999;
+    transform: scale(1.05);
+}
+
+.btn-warning {
+    background-color: #cc6600;
+    color: #fff;
+}
+.btn-warning:hover {
+    background-color: #ff9933;
+    transform: scale(1.05);
 }
