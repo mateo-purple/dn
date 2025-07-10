@@ -1,150 +1,299 @@
 html, body {
+
     font-family: "Segoe UI", sans-serif;
+
     background-image: url("images/background.jpg");
+
     background-size: cover;
+
     background-attachment: fixed;
+
     background-repeat: no-repeat;
+
     background-position: center;
+
     color: #fff;
+
     margin: 0;
+
     padding: 0;
+
 }
+
+
 
 header {
+
     background-color: rgba(51, 0, 102, 0.85);
+
     padding: 1.5em;
+
     text-align: center;
+
     box-shadow: 0 4px 12px rgba(0, 0, 0, 0.5);
+
 }
+
+
 
 header h1 {
+
     margin: 0;
+
     font-size: 2.5em;
+
     text-shadow: 2px 2px 4px #000;
+
 }
+
+
 
 header p {
+
     margin-top: 0.5em;
+
     font-size: 1.2em;
+
     color: #ddd;
+
 }
+
+
 
 main {
+
     padding: 2em;
+
     background-color: rgba(0, 0, 0, 0.6);
+
     margin: 2em auto;
+
     max-width: 960px;
+
     border-radius: 16px;
+
     box-shadow: 0 0 20px rgba(0, 0, 0, 0.7);
+
 }
+
+
 
 section {
+
     margin-bottom: 2.5em;
+
 }
+
+
 
 section h2 {
+
     font-size: 1.8em;
+
     color: #ffcaff;
+
     border-bottom: 2px solid #8855cc;
+
     padding-bottom: 0.3em;
+
     margin-bottom: 1em;
+
     text-shadow: 1px 1px 2px #000;
+
 }
+
+
 
 img {
+
     width: 100%;
+
     border-radius: 10px;
+
     box-shadow: 0 0 15px rgba(0, 0, 0, 0.8);
+
 }
+
+
 
 ul {
+
     padding-left: 1.2em;
+
 }
+
+
 
 footer {
+
     text-align: center;
+
     padding: 1em;
+
     background-color: rgba(51, 0, 102, 0.85);
+
     color: #ccc;
+
     font-size: 0.9em;
+
     margin-top: 2em;
+
     box-shadow: 0 -2px 10px rgba(0, 0, 0, 0.5);
+
 }
+
+
 
 .media iframe,
+
 .story-video iframe {
+
     width: 100%;
+
     max-width: 720px;
+
     height: 405px;
+
     display: block;
+
     margin: 0 auto;
+
     border-radius: 10px;
+
     box-shadow: 0 0 15px rgba(0, 0, 0, 0.7);
+
 }
+
+
 
 .story p,
+
 .credits p {
+
     font-size: 1.1em;
+
     line-height: 1.8;
+
     color: #eee;
+
     margin-bottom: 1.5em;
+
     text-shadow: 1px 1px 2px #000;
+
 }
+
+
 
 .credits a {
+
     text-decoration: none;
+
 }
+
+
 
 /* ボタン全般 */
+
 a.btn {
+
     display: inline-block;
+
     padding: 0.8em 1.6em;
+
     border-radius: 10px;
+
     font-weight: bold;
+
     font-size: 1.05em;
+
     text-decoration: none;
+
     margin: 0.3em 0.5em 0.8em 0;
+
     transition: background-color 0.3s, transform 0.2s;
+
     box-shadow: 0 0 10px rgba(255, 255, 255, 0.15);
+
 }
+
+
 
 /* ボタン色別 */
+
 .btn-primary {
+
     background-color: #663399;
+
     color: #fff;
+
 }
+
 .btn-primary:hover {
+
     background-color: #8855cc;
+
     transform: scale(1.05);
+
 }
+
+
 
 .btn-secondary {
+
     background-color: #3366cc;
+
     color: #fff;
+
 }
+
 .btn-secondary:hover {
+
     background-color: #5599ff;
+
     transform: scale(1.05);
+
 }
+
+
 
 .btn-tertiary {
+
     background-color: #666666;
+
     color: #fff;
+
 }
+
 .btn-tertiary:hover {
+
     background-color: #999999;
+
     transform: scale(1.05);
+
 }
+
+
 
 /* con.png 専用スタイル */
+
 .controls-image {
+
     text-align: center;
+
     margin-bottom: 2em;
+
 }
 
+
+
 .controls-image img {
+
     width: 90%;
+
     max-width: 600px;
+
     border-radius: 12px;
+
     box-shadow: 0 0 18px rgba(0, 0, 0, 0.8);
+
 }
