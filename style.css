@@ -1,108 +1,299 @@
-<!DOCTYPE html>
-<html lang="ja">
-<head>
-  <meta charset="UTF-8">
-  <title>すーぱー団員さんぽ 配布ページ</title>
-  <link rel="stylesheet" href="style.css">
-</head>
-<body>
-  <header>
-    <h1>すーぱー団員さんぽ</h1>
-    <p>ノエル団長を探して団員さんが大冒険！</p>
-  </header>
+</html>html, body {
 
-  <main>
+    font-family: "Segoe UI", sans-serif;
 
-    <section class="story">
-      <div class="story-video">
-        <iframe src="https://www.youtube.com/embed/2Wxiol6vw4w" frameborder="0" allowfullscreen></iframe>
-      </div>
-      <h2>物語</h2>
-      <p>
-        ノエル団長の楽しい配信を聴いていたとある団員さん。<br>
-        ウトウトしちゃって目が覚めたのは、朝。<br>
-        団長の配信はもう終わっていて、そこにあったのは団長の「おはよう」のポストだけ。<br><br>
-        団長はどこに行ってしまったのTT<br>
-        「会いたい」「声が聴きたい」——。<br><br>
-        寂しさとやさしさでできた、ちいさな大冒険のはじまり。
-      </p>
-    </section>
+    background-image: url("images/background.jpg");
 
-    <section class="media">
-      <h2>プレイ動画</h2>
-      <iframe src="https://www.youtube.com/embed/TkofgbBIEtU" frameborder="0" allowfullscreen></iframe>
-    </section>
+    background-size: cover;
 
-    <section class="screenshots">
-      <h2>スクリーンショット</h2>
-      <img src="images/screenshot1.png" alt="ゲームのスクリーンショット">
-    </section>
+    background-attachment: fixed;
 
-    <section class="download">
-      <h2>ダウンロード！</h2>
-      <a class="btn btn-primary" href="https://github.com/mateo-purple/dn/releases/download/1.0.2/game.zip" download>ゲームをダウンロード（ZIP）</a>
-      <a class="btn btn-secondary" href="https://unityroom.com/games/super_danin_sanpo" target="_blank">ウェブ版でプレイ（Unityroom）</a>
-    </section>
+    background-repeat: no-repeat;
 
-    <section class="controls">
-      <h2>操作説明</h2>
-          <section class="controls-image">
-      <img src="images/con.png" alt="ゲームのスクリーンショット">
-    </section>
-      <ul>
-        <li>左右下移動：キーボードの ← ↓ → または コントローラーの左スティック（左右下）</li>
-        <li>ジャンプ：キーボード↑　スペースキー または コントローラーの A または B</li>
-        <li>特殊アクション / 決定：Zキー または コントローラーの A　B（右にある4つのボタンの「右」か「下」）</li>
-        <li>ダッシュ：Ctrlキー または コントローラーの Y（右にある4つのボタンの「左」）</li>
-        <li>一時停止：Escキー または コントローラーのマイナスボタン（−）</li>
-      </ul>
-      <p>※ゲームパッド対応。キーボードでも快適に操作できます。</p>
-    </section>
+    background-position: center;
 
-    <section class="relival">
-      <h2>Relival（リリヴァル）復活</h2>
-      <p>
-        本作には「Relival（リリヴァル）」と呼ばれる特殊な復活システムがある！！<br>
-        通常はゲームオーバーになるとワールドの最初からになるけど～？、<strong>Relivalを使用すると、ゲームオーバーになったステージから復活</strong>できる！！！！<br>
-        Relivalを行うには、<strong>各ワールドの最後のステージに隠された専用アイテム</strong>を入手する必要があるよ。<br>
-        ただ、<strong>Relivalのアイテムは最大2個までしかストックできない！！</strong><br>
-        あとRelival入手は"""各ワールド一回まで"""だから気を付けて！！！！！
-      </p>
-    </section>
+    color: #fff;
 
-    <section class="credits">
-  <h2>企画・利用規約など</h2>
+    margin: 0;
 
-  <p>※本作は <strong>ホロライブの二次創作無料ゲーム</strong> です。</p>
-  <p>
-    勿論説明欄などに「ホロライブの二次創作ゲームであること」を明記していただければ、<strong>自由に配信・動画投稿していただいて構いません。</strong>
-  </p><br>
+    padding: 0;
 
-  <p>
-    詳しくは二次創作ガイドラインをご参照ください⇩
-  </p>
-  <a class="btn btn-secondary" href="https://hololivepro.com/terms/" target="_blank">ホロライブ二次創作ガイドライン</a>
+}
 
 
 
-  <p>◇ 使用効果音元：</p>
-  <a class="btn btn-tertiary" href="https://howlingindicator.net" target="_blank">Howling-Indicator様</a>
-  <a class="btn btn-tertiary" href="https://fc.sitefactory.info/se.html" target="_blank">FC音工房場</a>
-  <a class="btn btn-tertiary" href="https://arspark.jp/material/" target="_blank">アルスパーク様</a><br>
+header {
 
-  <p>◇ 配信素材置き場</p>
-  <a class="btn btn-primary" href="https://github.com/mateo-purple/dn/releases" target="_blank">配信用素材をダウンロード</a>
-</section><br><br>
-      
-  <p>◇ 制作：マテオ・パープル（<a href="https://twitter.com/jealous__cat" target="_blank">@jealous__cat</a>）</p>
-  <p>（アンダーバーは<strong>二個</strong>！バグ報告や要望などがあったらこちらの垢にご連絡くだせぇ）</p>
+    background-color: rgba(51, 0, 102, 0.85);
+
+    padding: 1.5em;
+
+    text-align: center;
+
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.5);
+
+}
 
 
 
-  </main>
+header h1 {
 
-  <footer>
-    <p>© マテオ・パープル</p>
-  </footer>
-</body>
-</html>
+    margin: 0;
+
+    font-size: 2.5em;
+
+    text-shadow: 2px 2px 4px #000;
+
+}
+
+
+
+header p {
+
+    margin-top: 0.5em;
+
+    font-size: 1.2em;
+
+    color: #ddd;
+
+}
+
+
+
+main {
+
+    padding: 2em;
+
+    background-color: rgba(0, 0, 0, 0.6);
+
+    margin: 2em auto;
+
+    max-width: 960px;
+
+    border-radius: 16px;
+
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.7);
+
+}
+
+
+
+section {
+
+    margin-bottom: 2.5em;
+
+}
+
+
+
+section h2 {
+
+    font-size: 1.8em;
+
+    color: #ffcaff;
+
+    border-bottom: 2px solid #8855cc;
+
+    padding-bottom: 0.3em;
+
+    margin-bottom: 1em;
+
+    text-shadow: 1px 1px 2px #000;
+
+}
+
+
+
+img {
+
+    width: 100%;
+
+    border-radius: 10px;
+
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.8);
+
+}
+
+
+
+ul {
+
+    padding-left: 1.2em;
+
+}
+
+
+
+footer {
+
+    text-align: center;
+
+    padding: 1em;
+
+    background-color: rgba(51, 0, 102, 0.85);
+
+    color: #ccc;
+
+    font-size: 0.9em;
+
+    margin-top: 2em;
+
+    box-shadow: 0 -2px 10px rgba(0, 0, 0, 0.5);
+
+}
+
+
+
+.media iframe,
+
+.story-video iframe {
+
+    width: 100%;
+
+    max-width: 720px;
+
+    height: 405px;
+
+    display: block;
+
+    margin: 0 auto;
+
+    border-radius: 10px;
+
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.7);
+
+}
+
+
+
+.story p,
+
+.credits p {
+
+    font-size: 1.1em;
+
+    line-height: 1.8;
+
+    color: #eee;
+
+    margin-bottom: 1.5em;
+
+    text-shadow: 1px 1px 2px #000;
+
+}
+
+
+
+.credits a {
+
+    text-decoration: none;
+
+}
+
+
+
+/* ボタン全般 */
+
+a.btn {
+
+    display: inline-block;
+
+    padding: 0.8em 1.6em;
+
+    border-radius: 10px;
+
+    font-weight: bold;
+
+    font-size: 1.05em;
+
+    text-decoration: none;
+
+    margin: 0.3em 0.5em 0.8em 0;
+
+    transition: background-color 0.3s, transform 0.2s;
+
+    box-shadow: 0 0 10px rgba(255, 255, 255, 0.15);
+
+}
+
+
+
+/* ボタン色別 */
+
+.btn-primary {
+
+    background-color: #663399;
+
+    color: #fff;
+
+}
+
+.btn-primary:hover {
+
+    background-color: #8855cc;
+
+    transform: scale(1.05);
+
+}
+
+
+
+.btn-secondary {
+
+    background-color: #3366cc;
+
+    color: #fff;
+
+}
+
+.btn-secondary:hover {
+
+    background-color: #5599ff;
+
+    transform: scale(1.05);
+
+}
+
+
+
+.btn-tertiary {
+
+    background-color: #666666;
+
+    color: #fff;
+
+}
+
+.btn-tertiary:hover {
+
+    background-color: #999999;
+
+    transform: scale(1.05);
+
+}
+
+
+
+/* con.png 専用スタイル */
+
+.controls-image {
+
+    text-align: center;
+
+    margin-bottom: 2em;
+
+}
+
+
+
+.controls-image img {
+
+    width: 90%;
+
+    max-width: 600px;
+
+    border-radius: 12px;
+
+    box-shadow: 0 0 18px rgba(0, 0, 0, 0.8);
+
+}
