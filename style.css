@@ -83,7 +83,12 @@ footer {
 }
 
 .story p,
-.credits p {
+.credits p,
+.ranking p, /* ここにranking pを追加 */
+.relival p, /* relival pも追加 */
+.controls ul li, /* 操作説明のリストアイテムも */
+.controls p /* 操作説明の下のパラグラフも */
+{
     font-size: 1.1em;
     line-height: 1.8;
     color: #eee;
@@ -147,4 +152,13 @@ a.btn {
     max-width: 600px;
     border-radius: 12px;
     box-shadow: 0 0 18px rgba(0, 0, 0, 0.8);
-}こ
+}
+
+/* ランキング機能の注意書き */
+.ranking .note {
+    font-size: 0.9em;
+    color: #ffcc00; /* 目立つ色に変更 */
+    display: block;
+    margin-top: 0.5em;
+    font-weight: bold;
+}
